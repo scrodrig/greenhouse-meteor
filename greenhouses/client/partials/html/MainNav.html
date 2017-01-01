@@ -1,0 +1,11 @@
+<template name="MainNav">
+    <nav class="main-nav">
+        <ul>
+            {{#if currentUser}}
+                <li class="logout">{{t9n 'Start.Logout'}}</li>
+            {{else}}
+                <li class="login-toggle">{{t9n 'Start.Login'}}</li>
+            {{/if}}
+        </ul>
+    </nav>
+</template>

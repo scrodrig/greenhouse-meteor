@@ -1,0 +1,18 @@
+<template name="Node">
+    <article class="cycle well">
+        <div class="media">
+            <div class="pull-left" href="#">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle fa-stack-2x text-purple"></i>
+                        <i class="fa fa-heartbeat fa-stack-1x fa-inverse"></i>
+                    </span>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading">{{name}}</h3>
+                <h4 class="media-heading">{{t9n 'Collections.Nodes.Number'}} : {{number}}</h4>
+                <h4 class="media-heading">{{t9n 'Collections.Nodes.NumberSensors'}} : {{numberSensors}}</h4>
+                <i class="fa fa-trash"></i>
+            </div>
+        </div>
+    </article>
+</template>

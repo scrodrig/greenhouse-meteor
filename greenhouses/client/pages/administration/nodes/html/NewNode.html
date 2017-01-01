@@ -1,0 +1,17 @@
+<template name="NewNode">
+    <div class="new-recipe-container">
+        <i class="fa fa-close"></i>
+        <!--{{> quickForm collection="Nodes" id="insertNodeForm" type="insert" class="new-node-form"}}-->
+
+
+        {{#autoForm collection="Nodes" id="insertNodeForm" type="insert" class="new-node-form" validation="blur"}}
+            {{> afQuickField name='name'}}
+            {{> afQuickField name='number'}}
+            {{> afQuickField name='numberSensors'}}
+            {{> afQuickField name="belonging" type="select" options=farmers}}
+            <button type="submit" class="btn btn-primary add-node">{{t9n 'Buttons.Add'}}</button>
+        {{/autoForm}}
+
+
+    </div>
+</template>

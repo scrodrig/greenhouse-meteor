@@ -1,0 +1,13 @@
+<template name="HomeLayout">
+    {{> Header}}
+    {{#if allowedUser}}
+        {{> SideNav}}
+        <main class="main-layout">
+            {{> Template.dynamic template=main}}
+        </main>
+    {{else}}
+        <main class="main-layout">
+            {{> Unauthorized}}
+        </main>
+    {{/if}}
+</template>
