@@ -15,3 +15,13 @@ Meteor.publish('farmers', function () {
         return Meteor.users.find({'profile.profession': 'farmer'});
      }
 });
+
+Meteor.publish('data', function (skip,limit) {
+   return  NodeData.find({},{skip: skip, limit: limit});
+});
+
+Meteor.publish('dataCount', function() {
+    Counts.publish(this, 'dataCount', NodeData.find());
+});
+
+//Counts.publish(this, 'dataCount', Posts.find());

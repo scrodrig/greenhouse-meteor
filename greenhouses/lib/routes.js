@@ -63,3 +63,11 @@ FlowRouter.route('/administration', {
         BlazeLayout.render("HomeLayout", {main: "Nodes"});
     }
 });
+
+
+FlowRouter.route('/node-status', {
+    name: 'node-status',
+    action() {
+        BlazeLayout.render("HomeLayout", {main: "NodeStatus"});
+    }
+});

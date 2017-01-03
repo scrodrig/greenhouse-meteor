@@ -134,6 +134,13 @@
         <item url="file://$USER_HOME$/.meteor/packages/meteortoys_pub/3.0.4/web.browser/client/main.js" />
         <item url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.14/web.browser/accounts_url_tests.js" />
         <item url="file://$USER_HOME$/.meteor/packages/meteortoys_pub/3.0.4/web.browser/ToyKit/main.css" />
+        <item url="file://$USER_HOME$/.meteor/packages/anti_i18n/0.4.3/web.browser/packages/anti:i18n.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/reactive_table.css" />
+        <item url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/reactive_table.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/reactive_table_i18n.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/filter.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/sort.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/tmeasday_publish-counts/0.8.0/web.browser/client/publish-counts.js" />
         <item url="file://$USER_HOME$/.meteor/packages/themeteorchef_jquery-validation/1.14.0/web.browser/packages/themeteorchef_jquery-validation.js" />
         <item url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.14/web.browser/accounts_client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/meteortoys_pub/3.0.4/web.browser/ToyKit/main.js" />
@@ -634,6 +641,13 @@
       <root url="file://$USER_HOME$/.meteor/packages/meteortoys_pub/3.0.4/web.browser/client/main.js" />
       <root url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.14/web.browser/accounts_url_tests.js" />
       <root url="file://$USER_HOME$/.meteor/packages/meteortoys_pub/3.0.4/web.browser/ToyKit/main.css" />
+      <root url="file://$USER_HOME$/.meteor/packages/anti_i18n/0.4.3/web.browser/packages/anti:i18n.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/reactive_table.css" />
+      <root url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/reactive_table.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/reactive_table_i18n.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/filter.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/sort.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/tmeasday_publish-counts/0.8.0/web.browser/client/publish-counts.js" />
       <root url="file://$USER_HOME$/.meteor/packages/themeteorchef_jquery-validation/1.14.0/web.browser/packages/themeteorchef_jquery-validation.js" />
       <root url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.14/web.browser/accounts_client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/meteortoys_pub/3.0.4/web.browser/ToyKit/main.js" />
