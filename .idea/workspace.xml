@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dc33ec2-cdf7-4ae1-b3cb-529135c9d5de" name="Default" comment="Add datatable and counst collection as cursor">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/administration/cycles/html/Cycle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/administration/cycles/html/Cycles.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/administration/cycles/html/NewCycle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/administration/cycles/js/Cycles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/js/Node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/NodeStatus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/html/status/js/NodeStatus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/collections/js/NodeData.js" />
+    <list default="true" id="6dc33ec2-cdf7-4ae1-b3cb-529135c9d5de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Greenhouses.iws" />
@@ -641,7 +633,7 @@
       <workItem from="1482205485038" duration="13000" />
       <workItem from="1482862683322" duration="820000" />
       <workItem from="1483291963213" duration="1258000" />
-      <workItem from="1483394628512" duration="9382000" />
+      <workItem from="1483394628512" duration="9404000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit IPL Web Mvil Application constructed in Meteor">
       <created>1483292972859</created>
@@ -657,11 +649,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483415041992</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add datatable and counst collection as cursor">
+      <created>1483415987380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1483415987380</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123989000" />
+    <option name="totallyTimeSpent" value="124011000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,11 +675,11 @@
     <frame x="0" y="23" width="1680" height="960" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2543701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2543701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328341" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36059907" sideWeight="0.5021097" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32949308" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36059907" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
