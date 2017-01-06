@@ -141,6 +141,9 @@
         <item url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/filter.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/sort.js" />
         <item url="file://$USER_HOME$/.meteor/packages/tmeasday_publish-counts/0.8.0/web.browser/client/publish-counts.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/rzymek_moment-locale-en-gb/2.9.0/web.browser/packages/rzymek_moment-locale-en-gb.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/rzymek_moment-locale-es/2.9.0/web.browser/packages/rzymek_moment-locale-es.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/rzymek_moment-locale-pt/2.9.0/web.browser/packages/rzymek_moment-locale-pt.js" />
         <item url="file://$USER_HOME$/.meteor/packages/themeteorchef_jquery-validation/1.14.0/web.browser/packages/themeteorchef_jquery-validation.js" />
         <item url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.14/web.browser/accounts_client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/meteortoys_pub/3.0.4/web.browser/ToyKit/main.js" />
@@ -648,6 +651,9 @@
       <root url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/filter.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aslagle_reactive-table/0.8.38/web.browser/lib/sort.js" />
       <root url="file://$USER_HOME$/.meteor/packages/tmeasday_publish-counts/0.8.0/web.browser/client/publish-counts.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/rzymek_moment-locale-en-gb/2.9.0/web.browser/packages/rzymek_moment-locale-en-gb.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/rzymek_moment-locale-es/2.9.0/web.browser/packages/rzymek_moment-locale-es.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/rzymek_moment-locale-pt/2.9.0/web.browser/packages/rzymek_moment-locale-pt.js" />
       <root url="file://$USER_HOME$/.meteor/packages/themeteorchef_jquery-validation/1.14.0/web.browser/packages/themeteorchef_jquery-validation.js" />
       <root url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.14/web.browser/accounts_client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/meteortoys_pub/3.0.4/web.browser/ToyKit/main.js" />

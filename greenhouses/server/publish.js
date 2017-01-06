@@ -24,4 +24,18 @@ Meteor.publish('dataCount', function() {
     Counts.publish(this, 'dataCount', NodeData.find());
 });
 
+
+Meteor.publish('parameterCount', function() {
+    Counts.publish(this, 'parameterCount', Parameter.find());
+});
+
+
+Meteor.publish('parameter',function () {
+    return Parameter.find({});
+});
+
+//Meteor.publish('someData', function() {
+//     ReactiveTable.publish("someData", NodeData, {});
+//});
+
 //Counts.publish(this, 'dataCount', Posts.find());

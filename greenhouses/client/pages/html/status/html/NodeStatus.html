@@ -4,7 +4,7 @@
 
             Number {{totalCount}}
 
-            {{> reactiveTable collection= dataNode}}
+            {{> reactiveTable collection = dataNode fields = fields settings = settings  class="table table-striped table-hover table-condensed table-responsive"}}
         {{else}}
             <p>Loading...</p>
         {{/if}}

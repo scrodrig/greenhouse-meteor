@@ -2,7 +2,7 @@
  * Created by SchubertDavidRodriguez on 10/30/16.
  */
 T9n.setLanguage(window.navigator.userLanguage || window.navigator.language);
-
+moment.locale(window.navigator.userLanguage || window.navigator.language);
 var myLogoutFunc = function () {
     Session.set('nav-toggle', '');
     FlowRouter.go('/');

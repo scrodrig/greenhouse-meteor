@@ -57,6 +57,13 @@ FlowRouter.route('/prediction', {
     }
 });
 
+FlowRouter.route('/parameters', {
+    name: 'parameters',
+    action() {
+        BlazeLayout.render("HomeLayout", {main: "Parameters"});
+    }
+});
+
 FlowRouter.route('/administration', {
     name: 'administration',
     action() {

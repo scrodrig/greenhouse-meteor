@@ -50,7 +50,10 @@ aldeed:autoform
 email
 
 #Time
-momentjs:moment
+#momentjs:moment@2.8.1
+rzymek:moment-locale-es
+rzymek:moment-locale-en-gb
+rzymek:moment-locale-pt
 themeteorchef:jquery-validation
 
 #reactive tables

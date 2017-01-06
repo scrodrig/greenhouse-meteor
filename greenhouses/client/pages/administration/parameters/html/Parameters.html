@@ -1,0 +1,26 @@
+<template name="Parameters">
+    <h1 class="page-title">Parameters</h1>
+    <article class="cycle well">
+        <div class="media">
+        <h3>Parámetros</h3>
+            <div class="media-body">
+                {{#if editMode }}
+                    {{#autoForm collection="Parameter" id="updateParameterId" type="update" doc=Parameter autosave=true}}
+                        {{> afQuickField name='Temperature'}}
+                        {{> afQuickField name='GroundHumidity'}}
+                        {{> afQuickField name='EnvironmentHumidity'}}
+                        {{> afQuickField name="Luminosity"}}
+                    {{/autoForm}}
+                    <i class="fa fa-close"></i>
+                {{else}}
+                    {{> IndividualParameter parameter=Parameter.Temperature name="Temperature"}}
+                    {{> IndividualParameter parameter=Parameter.GroundHumidity name="GroundHumidity"}}
+                    {{> IndividualParameter parameter=Parameter.EnvironmentHumidity name="EnvironmentHumidity"}}
+                    {{> IndividualParameter parameter=Parameter.Luminosity name="Luminosity"}}
+                    <i class="fa fa-pencil"></i>
+                {{/if}}
+            </div>
+    </div>
+    </article>
+
+</template>
