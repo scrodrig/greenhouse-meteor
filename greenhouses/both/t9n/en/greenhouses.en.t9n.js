@@ -106,6 +106,7 @@ T9n.map('en',{
         Cancel : 'Cancel',
         Submit : 'Submit',
         Add : 'Add',
+        Of: 'Of'
     }
 
 });

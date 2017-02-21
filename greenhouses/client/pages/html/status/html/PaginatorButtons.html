@@ -1,0 +1,21 @@
+<template name="PaginatorButtons">
+    <nav aria-label="Page navigation example" class="pull-right">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="previous-page {{#if enablePrevious}} enabled {{else}} disabled {{/if}} page-link"  aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link">{{start}}</a></li>
+            <li class="page-item"><a class="page-link">{{t9n 'Buttons.Of'}}</a></li>
+            <li class="page-item"><a class="page-link">{{total}}</a></li>
+            <li class="page-item">
+                <a class="next-page {{#if enableNext}} enabled {{else}} disabled {{/if}} page-link" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</template>

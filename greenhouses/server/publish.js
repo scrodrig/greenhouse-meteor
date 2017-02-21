@@ -20,6 +20,10 @@ Meteor.publish('data', function (skip,limit) {
    return  NodeData.find({},{skip: skip, limit: limit});
 });
 
+Meteor.publish('data-hours', function (skip,limit) {
+    return  NodeData.find({},{skip: 1600, limit: limit});
+});
+
 Meteor.publish('dataCount', function() {
     Counts.publish(this, 'dataCount', NodeData.find());
 });

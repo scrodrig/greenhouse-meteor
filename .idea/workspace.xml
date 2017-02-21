@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dc33ec2-cdf7-4ae1-b3cb-529135c9d5de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/SchubertDavidRodriguez.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameters.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/js/Parameters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/EnvironmentHumidities.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/GroundHumidities.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/Temperatures.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/collections/js/Parameter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/images/wool-diagonal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/PaginatorButtons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/styles/table_react.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/.meteor/packages" afterPath="$PROJECT_DIR$/greenhouses/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/.meteor/versions" afterPath="$PROJECT_DIR$/greenhouses/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/accounts/js/Accounts.js" afterPath="$PROJECT_DIR$/greenhouses/client/accounts/js/Accounts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/both/t9n/en/greenhouses.en.t9n.js" afterPath="$PROJECT_DIR$/greenhouses/both/t9n/en/greenhouses.en.t9n.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/NodeStatus.html" afterPath="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/NodeStatus.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/pages/html/status/js/NodeStatus.js" afterPath="$PROJECT_DIR$/greenhouses/client/pages/html/status/js/NodeStatus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/partials/html/SideNav.html" afterPath="$PROJECT_DIR$/greenhouses/client/partials/html/SideNav.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/styles/bootstrap.styl" afterPath="$PROJECT_DIR$/greenhouses/client/styles/bootstrap.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/styles/styles.styl" afterPath="$PROJECT_DIR$/greenhouses/client/styles/styles.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/lib/routes.js" afterPath="$PROJECT_DIR$/greenhouses/lib/routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/server/publish.js" afterPath="$PROJECT_DIR$/greenhouses/server/publish.js" />
     </list>
     <ignored path="Greenhouses.iws" />
@@ -44,71 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styles.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/styles.styl">
+      <file leaf-file-name="NodeStatus.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/status/js/NodeStatus.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="367" column="8" lean-forward="false" selection-start-line="367" selection-start-column="8" selection-end-line="367" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parameters.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameters.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewNode.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/html/NewNode.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="12" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parameter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="29" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/bootstrap.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parameters.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/js/Parameters.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parameter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenhouses/collections/js/Parameter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+            <state relative-caret-position="219">
+              <caret line="150" column="39" lean-forward="true" selection-start-line="150" selection-start-column="39" selection-end-line="150" selection-end-column="39" />
               <folding>
                 <element signature="e#0#55#0" expanded="false" />
               </folding>
@@ -116,21 +45,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenhouses/lib/routes.js">
+      <file leaf-file-name="PaginatorButtons.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/status/html/PaginatorButtons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="62" column="59" lean-forward="false" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="59" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="52" />
+              <folding>
+                <element signature="e#345#352#0#HTML" expanded="true" />
+                <element signature="e#889#896#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SideNav.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenhouses/client/partials/html/SideNav.html">
+      <file leaf-file-name="Start.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/Start.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="-420">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,8 +71,68 @@
       <file leaf-file-name="publish.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/greenhouses/server/publish.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state relative-caret-position="324">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prediction.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/Prediction.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckSteps.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/CheckSteps.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckNodes.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/CheckNodes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="51" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenhouses/client/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenhouses/client/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeStatus.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/status/html/NodeStatus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -152,6 +144,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="SCSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
@@ -177,21 +170,23 @@
       <find>coun</find>
       <find>reactive</find>
       <find>fa-arrow-circle-right</find>
+      <find>http://jackrugile.com/images/misc/noise-diagonal.png</find>
+      <find>url(http://jackrugile.com/images/misc/noise-diagonal.png);</find>
+      <find>parameter</find>
+      <find>console</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Schubert David Rodriguez &lt;schubert_david@hotmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/greenhouses/client/pages/Unauthorized.html" />
-        <option value="$PROJECT_DIR$/greenhouses/client/pages/Welcome.html" />
-        <option value="$PROJECT_DIR$/greenhouses/client/pages/html/Unauthorized.html" />
-        <option value="$PROJECT_DIR$/greenhouses/both/t9n/pt/greenhouses.pt.t9n.js" />
-        <option value="$PROJECT_DIR$/greenhouses/client/index.js" />
-        <option value="$PROJECT_DIR$/greenhouses/client/pages/cycles/html/Cycles.html" />
-        <option value="$PROJECT_DIR$/greenhouses/client/pages/cycles/html/Cycle.html" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/Node.html" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/NewNode.html" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/cycles/html/NewCycle.html" />
@@ -200,7 +195,6 @@
         <option value="$PROJECT_DIR$/greenhouses/server/accounts.js" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/js/NewNode.js" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/html/CheckNodes.html" />
-        <option value="$PROJECT_DIR$/greenhouses/both/t9n/en/greenhouses.en.t9n.js" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/html/NewNode.html" />
         <option value="$PROJECT_DIR$/greenhouses/collections/js/nodes.js" />
         <option value="$PROJECT_DIR$/greenhouses/collections/js/cycles.js" />
@@ -220,22 +214,30 @@
         <option value="$PROJECT_DIR$/greenhouses/client/accounts/js/Accounts.js" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/GroundHumidities.html" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/EnvironmentHumidities.html" />
-        <option value="$PROJECT_DIR$/greenhouses/client/styles/style.scss" />
-        <option value="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/NodeStatus.html" />
-        <option value="$PROJECT_DIR$/greenhouses/client/pages/html/status/js/NodeStatus.js" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/Temperatures.html" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/html/Prediction.html" />
-        <option value="$PROJECT_DIR$/greenhouses/client/styles/bootstrap.styl" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/TemperatureParameter.html" />
-        <option value="$PROJECT_DIR$/greenhouses/lib/routes.js" />
         <option value="$PROJECT_DIR$/greenhouses/client/partials/html/SideNav.html" />
-        <option value="$PROJECT_DIR$/greenhouses/server/publish.js" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/js/Parameter.js" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/js/Parameters.js" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameter.html" />
         <option value="$PROJECT_DIR$/greenhouses/collections/js/Parameter.js" />
         <option value="$PROJECT_DIR$/greenhouses/client/styles/styles.styl" />
         <option value="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameters.html" />
+        <option value="$PROJECT_DIR$/greenhouses/lib/routes.js" />
+        <option value="$PROJECT_DIR$/greenhouses/client/styles/bootstrap.styl" />
+        <option value="$PROJECT_DIR$/greenhouses/client/styles/style.scss" />
+        <option value="$PROJECT_DIR$/greenhouses/client/styles/table-react.scss" />
+        <option value="$PROJECT_DIR$/greenhouses/client/styles/table.scss" />
+        <option value="$PROJECT_DIR$/greenhouses/client/styles/table_react.scss" />
+        <option value="$PROJECT_DIR$/greenhouses/client/MeteorExtendedFunctions.js" />
+        <option value="$PROJECT_DIR$/greenhouses/client/global/MeteorEnumerations.js" />
+        <option value="$PROJECT_DIR$/greenhouses/client/global/MeteorExtendedFunctions.js" />
+        <option value="$PROJECT_DIR$/greenhouses/both/t9n/en/greenhouses.en.t9n.js" />
+        <option value="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/PaginatorButtons.html" />
+        <option value="$PROJECT_DIR$/greenhouses/client/pages/html/status/html/NodeStatus.html" />
+        <option value="$PROJECT_DIR$/greenhouses/server/publish.js" />
+        <option value="$PROJECT_DIR$/greenhouses/client/pages/html/status/js/NodeStatus.js" />
       </list>
     </option>
   </component>
@@ -250,8 +252,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="width" value="1680" />
+    <option name="height" value="963" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -271,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -342,10 +343,6 @@
               <option name="myItemId" value="collections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -383,55 +380,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Greenhouses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Greenhouses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greenhouses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Greenhouses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Greenhouses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greenhouses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -453,12 +402,155 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".meteor" />
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="status" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="status" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="global" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="both" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="t9n" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenhouses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="both" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="t9n" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,23 +560,23 @@
     <property name="js.meteor.library.was.enabled" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/greenhouses/client/global" />
+      <recent name="$PROJECT_DIR$/greenhouses/client/images" />
+      <recent name="$PROJECT_DIR$/greenhouses/client/pages/html/status/js" />
+      <recent name="$PROJECT_DIR$/greenhouses/client/pages/html" />
+      <recent name="$PROJECT_DIR$/greenhouses/client/pages/administration" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/greenhouses/client/pages/html" />
       <recent name="$PROJECT_DIR$/greenhouses/client/layouts" />
       <recent name="$PROJECT_DIR$/greenhouses/client/partials/html" />
       <recent name="$PROJECT_DIR$/greenhouses/both/i18n/pt" />
       <recent name="$PROJECT_DIR$/greenhouses/lib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/greenhouses/client/pages/html/status/js" />
-      <recent name="$PROJECT_DIR$/greenhouses/client/pages/html" />
-      <recent name="$PROJECT_DIR$/greenhouses/client/pages/administration" />
-      <recent name="$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/html" />
-      <recent name="$PROJECT_DIR$/greenhouses/client/pages/administration/nodes" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.cycles.js">
@@ -592,7 +684,14 @@
       <workItem from="1483291963213" duration="1258000" />
       <workItem from="1483394628512" duration="15145000" />
       <workItem from="1483457576826" duration="9648000" />
-      <workItem from="1483638989493" duration="14548000" />
+      <workItem from="1483638989493" duration="18439000" />
+      <workItem from="1484143682910" duration="459000" />
+      <workItem from="1484151485667" duration="562000" />
+      <workItem from="1485187438679" duration="298000" />
+      <workItem from="1485224494326" duration="11104000" />
+      <workItem from="1485279299696" duration="2234000" />
+      <workItem from="1486497204129" duration="878000" />
+      <workItem from="1487650113920" duration="9281000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit IPL Web Mvil Application constructed in Meteor">
       <created>1483292972859</created>
@@ -622,11 +721,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483416006767</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add parameter table to update">
+      <created>1483661993445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1483661993445</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153948000" />
+    <option name="totallyTimeSpent" value="182655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,16 +744,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="963" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25299507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25557566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328341" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36059907" sideWeight="0.5021097" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3593315" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33754304" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -680,7 +786,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit IPL Web Mvil Application constructed in Meteor" />
     <MESSAGE value="Add datatable and counst collection as cursor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add datatable and counst collection as cursor" />
+    <MESSAGE value="Add parameter table to update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add parameter table to update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -689,101 +796,94 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/js/NewNode.js">
+    <entry file="file://$PROJECT_DIR$/greenhouses/.meteor/versions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="15">
+          <caret line="131" column="12" lean-forward="false" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/cycles/html/Cycle.html">
+    <entry file="file://$PROJECT_DIR$/greenhouses/collections/js/Cycle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        <state relative-caret-position="195">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/.gitignore">
+    <entry file="file://$PROJECT_DIR$/greenhouses/collections/js/NodeData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/private/confirmation-html-email.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="444" column="19" lean-forward="true" selection-start-line="444" selection-start-column="19" selection-end-line="444" selection-end-column="19" />
+        <state relative-caret-position="144">
+          <caret line="632" column="9" lean-forward="false" selection-start-line="632" selection-start-column="9" selection-end-line="632" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/partials/html/Header.html">
+    <entry file="file://$PROJECT_DIR$/greenhouses/collections/js/Node.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="53" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="53" />
+        <state relative-caret-position="15">
+          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/js/Nodes.js">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/html/Nodes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/cycles/js/Cycles.js">
+    <entry file="file://$PROJECT_DIR$/greenhouses/.meteor/packages">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/js/Node.js">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/partials/html/SideNav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/partials/html/MainNav.html">
+    <entry file="file://$PROJECT_DIR$/greenhouses/collections/js/Parameter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="55" />
+        <state relative-caret-position="525">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/Start.html">
+    <entry file="file://$PROJECT_DIR$/greenhouses/server/account-emails.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="41" column="27" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="41" selection-end-column="27" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/Unauthorized.html">
+    <entry file="file://$PROJECT_DIR$/greenhouses/lib/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="900">
+          <caret line="62" column="59" lean-forward="false" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/.meteor/platforms">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="3270">
+          <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/server/smtp.js">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/bootstrap.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/server/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -794,17 +894,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/server/account-emails.js">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/table-react.scss" />
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/table-react.scss" />
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/images/wool-diagonal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/table.scss" />
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/table_react.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="43" column="73" lean-forward="false" selection-start-line="43" selection-start-column="73" selection-end-line="43" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/both/t9n/en/greenhouses.en.t9n.js">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/styles.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="25" />
+        <state relative-caret-position="225">
+          <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/accounts/js/Accounts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -815,27 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/partials/js/MainNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/accounts/js/Accounts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/greenhouses/client/accounts/js/override-atPwdFormBtn.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -843,34 +937,91 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/layouts/html/HomeLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/layouts/html/StartLayout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/partials/html/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/greenhouses/client/layouts/js/HomeLayout.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameters.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/.meteor/versions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="131" column="12" lean-forward="false" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/style.scss">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/html/NewNode.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="111" column="5" lean-forward="false" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/status/html/EmptyCollection.html">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/html/Node.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+        <state relative-caret-position="255">
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/js/Parameters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/global/MeteorEnumerations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/global/MeteorExtendedFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="50" column="2" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#56#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -886,9 +1037,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <marker date="1483466235000" expanded="true" signature="73:198" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -900,36 +1049,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/collections/js/Cycle.js">
+    <entry file="file://$PROJECT_DIR$/greenhouses/both/t9n/en/greenhouses.en.t9n.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="414">
+          <caret line="108" column="10" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/collections/js/NodeData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#55#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="632" column="9" lean-forward="false" selection-start-line="632" selection-start-column="9" selection-end-line="632" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/collections/js/Node.js">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/status/html/EmptyCollection.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
+          <caret line="1" column="48" lean-forward="false" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/Welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/Unauthorized.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/Start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/Prediction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -944,141 +1107,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/CheckNodes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="15">
+          <caret line="1" column="51" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/html/Nodes.html">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="90">
+          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/Prediction.html">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/status/js/NodeStatus.js">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/status/html/PaginatorButtons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="195">
+          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="52" />
           <folding>
-            <element signature="e#0#55#0" expanded="false" />
+            <element signature="e#345#352#0#HTML" expanded="true" />
+            <element signature="e#889#896#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/html/Node.html">
+    <entry file="file://$PROJECT_DIR$/greenhouses/server/publish.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="16" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/.meteor/packages">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="324">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/status/html/NodeStatus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/bootstrap.styl">
+    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/status/js/NodeStatus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/partials/html/SideNav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/server/publish.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/lib/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="62" column="59" lean-forward="false" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/js/Parameters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/html/NewNode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="29" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/collections/js/Parameter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        <state relative-caret-position="219">
+          <caret line="150" column="39" lean-forward="true" selection-start-line="150" selection-start-column="39" selection-end-line="150" selection-end-column="39" />
           <folding>
             <element signature="e#0#55#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/styles/styles.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="367" column="8" lean-forward="false" selection-start-line="367" selection-start-column="8" selection-end-line="367" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameters.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
