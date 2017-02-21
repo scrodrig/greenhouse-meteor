@@ -164,4 +164,30 @@ Template.NodeStatus.events({
         Template.instance().initial.set(Template.instance().initial.get() - Template.instance().skip.get());
     },
 
+    'click .reactive-table tbody tr': function (event) {
+        var lecture = this;
+        console.log(lecture);
+        var message =  T9n.get('NodeStatus.Alerts.messageIni')
+                    + T9n.get('NodeStatus.Alerts.messageTemp') + "<strong>" +((lecture.temperature1 + lecture.temperature2)/2).toFixed(2) + "</strong>"
+                    + T9n.get('NodeStatus.Alerts.messageEnv') + ((lecture.environment_humidity1 + lecture.environment_humidity2)/2).toFixed(2) + '%'
+                    + T9n.get('NodeStatus.Alerts.messageGH') +  Meteor.extendedFunctions.transformParameter((lecture.ground_humidity1 + lecture.ground_humidity2 + lecture.ground_humidity3)/3,Meteor.Enumerations.types.GROUND_HUMIDITY) + '%'
+                    + T9n.get('NodeStatus.Alerts.messageLum') + (lecture.luminosity).toFixed(2);
+
+        if (event.target.className == 'success') {
+            sAlert.success(message, {});
+        }
+
+        if (event.target.className == 'danger') {
+            sAlert.error(message, {});
+        }
+
+        if (event.target.className == 'warning') {
+            sAlert.warning(message, {});
+        }
+
+        if (event.target.className == 'info') {
+            sAlert.info(message, {});
+        }
+    }
+
 });

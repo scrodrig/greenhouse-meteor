@@ -80,6 +80,19 @@ T9n.map('en',{
         Title: 'Prediction'
     },
 
+    NodeStatus:{
+        Alerts: {
+            messageIni: 'The selected lecture shows: ',
+            messageTemp: 'average temperature lecture is ',
+            messageEnv: ', average environment humidity lecture is ',
+            messageGH: ', average ground humidity lecture is ',
+            messageLum: ', average luminosity lecture is ',
+        },
+        Status: 'Check Step',
+        Prediction: 'Prediction',
+        Administration: 'Administration'
+    },
+
     Collections:{
 
         Commons:{
@@ -106,6 +119,11 @@ T9n.map('en',{
         Cancel : 'Cancel',
         Submit : 'Submit',
         Add : 'Add',
+        Of: 'Of'
+    },
+
+    Prepositions :{
+        And : 'And',
         Of: 'Of'
     }
 

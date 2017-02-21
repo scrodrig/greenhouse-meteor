@@ -8,6 +8,7 @@ if(Meteor.isClient){
     });
 
     Accounts.onLogout(function () {
+        console.log('LOGOUT');
         FlowRouter.go('home');
     });
 }

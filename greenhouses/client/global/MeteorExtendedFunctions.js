@@ -4,6 +4,7 @@
 Meteor.extendedFunctions = {
 
     alerts: function (value,parameter) {
+
          if(value === null){
              return;
          }
