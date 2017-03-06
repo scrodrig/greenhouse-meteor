@@ -7,7 +7,7 @@ Meteor.startup(function () {
         effect: '',
         position: 'top',
         timeout: 4000,
-        html: false,
+        html: true,
         onRouteClose: true,
         stack: false,
         // or you can pass an object:

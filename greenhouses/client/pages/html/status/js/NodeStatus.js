@@ -157,6 +157,18 @@ Template.NodeStatus.helpers({
 
 Template.NodeStatus.events({
     'click .next-page.enabled':function () {
+
+        Push.send({
+            from: 'Test',
+            title: 'Hello',
+            text: 'World',
+            badge: 12,
+            // sound: fileInPublicFolder
+            query: {
+                userId: this.userId
+            }
+        });
+
         Template.instance().initial.set(Template.instance().initial.get() + Template.instance().skip.get());
     },
 

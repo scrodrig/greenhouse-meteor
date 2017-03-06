@@ -65,7 +65,8 @@ T9n.map('en',{
         Search: 'Check Nodes',
         Status: 'Check Step',
         Prediction: 'Prediction',
-        Administration: 'Administration'
+        Administration: 'Administration',
+        Graphs: 'Graphs'
     },
 
     CheckNodes:{

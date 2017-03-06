@@ -294,6 +294,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.1.9/web.browser/builtins.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3/bootstrap3.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.8/web.browser/deprecated.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/raix_eventstate/0.0.4/web.browser/packages/raix_eventstate.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/plain-fieldset/plain-fieldset.js" />
         <item url="file://$USER_HOME$/.meteor/packages/msavin_mongol/2.0.1/web.browser/client/row_collection_notFound/notFound.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3-inline/bootstrap3-inline.css" />
@@ -304,8 +305,12 @@
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3-horizontal/bootstrap3-horizontal.css" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.8/web.browser/httpcall_tests.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.8/web.browser/httpcall_common.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/raix_push/3.0.2/web.browser/lib/client/browser.js" />
         <item url="file://$USER_HOME$/.meteor/packages/http/1.1.8/web.browser/httpcall_server.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/raix_push/3.0.2/web.browser/lib/client/client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/components/autoForm/autoForm.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/raix_push/3.0.2/web.browser/lib/common/notifications.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/raix_push/3.0.2/web.browser/lib/common/main.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/components/quickForm/quickForm.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/components/afFormGroup/afFormGroup.js" />
         <item url="file://$USER_HOME$/.meteor/packages/msavin_jetsetter/2.0.0/web.browser/style/JetSetter.css" />
@@ -378,6 +383,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/select/select.js" />
         <item url="file://$USER_HOME$/.meteor/packages/caching-html-compiler/1.0.7/web.browser/caching-html-compiler.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/submit/submit.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/em0ney_chartjs/1.0.2/web.browser/packages/em0ney_chartjs.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/datetime/datetime.js" />
         <item url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.10/web.browser/hook.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/password/password.js" />
@@ -815,6 +821,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.1.9/web.browser/builtins.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3/bootstrap3.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.8/web.browser/deprecated.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/raix_eventstate/0.0.4/web.browser/packages/raix_eventstate.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/plain-fieldset/plain-fieldset.js" />
       <root url="file://$USER_HOME$/.meteor/packages/msavin_mongol/2.0.1/web.browser/client/row_collection_notFound/notFound.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3-inline/bootstrap3-inline.css" />
@@ -825,8 +832,12 @@
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3-horizontal/bootstrap3-horizontal.css" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.8/web.browser/httpcall_tests.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.8/web.browser/httpcall_common.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/raix_push/3.0.2/web.browser/lib/client/browser.js" />
       <root url="file://$USER_HOME$/.meteor/packages/http/1.1.8/web.browser/httpcall_server.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/raix_push/3.0.2/web.browser/lib/client/client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/components/autoForm/autoForm.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/raix_push/3.0.2/web.browser/lib/common/notifications.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/raix_push/3.0.2/web.browser/lib/common/main.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/components/quickForm/quickForm.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/components/afFormGroup/afFormGroup.js" />
       <root url="file://$USER_HOME$/.meteor/packages/msavin_jetsetter/2.0.0/web.browser/style/JetSetter.css" />
@@ -899,6 +910,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/select/select.js" />
       <root url="file://$USER_HOME$/.meteor/packages/caching-html-compiler/1.0.7/web.browser/caching-html-compiler.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/submit/submit.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/em0ney_chartjs/1.0.2/web.browser/packages/em0ney_chartjs.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/datetime/datetime.js" />
       <root url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.10/web.browser/hook.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/password/password.js" />

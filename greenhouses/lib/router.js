@@ -79,3 +79,10 @@ FlowRouter.route('/node-status', {
         BlazeLayout.render("HomeLayout", {main: "NodeStatus"});
     }
 });
+
+FlowRouter.route('/check-graphs', {
+    name: 'check-graphs',
+    action() {
+        BlazeLayout.render("HomeLayout", {main: "CheckGraphs"});
+    }
+});
