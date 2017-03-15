@@ -8,3 +8,8 @@ Template.registerHelpers({
         }
     },
 });
+
+
+Router.configure({
+    noRoutesTemplate: Template.None,
+});

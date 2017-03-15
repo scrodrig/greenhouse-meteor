@@ -86,3 +86,11 @@ FlowRouter.route('/check-graphs', {
         BlazeLayout.render("HomeLayout", {main: "CheckGraphs"});
     }
 });
+
+// Router.route('/users',{where: 'server'})
+//     .get(function(){
+//         var response = User.find().fetch();
+//         this.response.setHeader('Content-Type','application/json');
+//         this.response.end(JSON.stringify(response));
+//     });
+

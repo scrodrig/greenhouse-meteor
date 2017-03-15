@@ -4,7 +4,7 @@
 Meteor.startup(function () {
 
     sAlert.config({
-        effect: '',
+        effect: 'genie',
         position: 'top',
         timeout: 4000,
         html: true,

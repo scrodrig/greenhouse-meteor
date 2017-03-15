@@ -25,8 +25,9 @@ Template.Parameters.helpers({
 
     parameterName: function () {
       return {name: "Temperature"}
-    }
+    },
 });
+
 
 Template.Parameters.events({
     'click .toggle-menu':function () {

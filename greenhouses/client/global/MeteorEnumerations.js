@@ -9,5 +9,4 @@ Meteor.Enumerations = {
          ENVIRONMENT_HUMIDITY: 3,
          LUMINOSITY: 4
      }
-
-}
+};

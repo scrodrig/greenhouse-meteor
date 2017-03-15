@@ -35,7 +35,7 @@ Meteor.extendedFunctions = {
                 break;
             case Meteor.Enumerations.types.TEMPERATURE:
                 //Real value
-                return value;
+                return value.toFixed(2);
                 break;
             case Meteor.Enumerations.types.ENVIRONMENT_HUMIDITY:
                 //Real value
@@ -47,7 +47,15 @@ Meteor.extendedFunctions = {
             default:
                 return value;
         }
+    },
+    
+    prepareData : function (data) {
+        
     }
+
+   // date : function () {
+   //     return moment().format('l');
+   // }
 
 };
 

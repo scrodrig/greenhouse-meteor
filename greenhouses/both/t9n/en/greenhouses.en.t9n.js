@@ -94,6 +94,18 @@ T9n.map('en',{
         Administration: 'Administration'
     },
 
+    GraphNode:{
+        Alerts: 'Please select a date before consulting a chart',
+        ErrorData: 'There is an error with the web service',
+    },
+
+    Params:{
+        Temperature: 'Temperature',
+        GroundHumidity: 'Ground Humidity',
+        EnvironmentHumidity: 'Environment Humidity',
+        Luminosity: 'Luminosity'
+    },
+
     Collections:{
 
         Commons:{

@@ -1,5 +1,40 @@
 <template name="CheckGraphs">
-    <div style="display: block">
-        <canvas id="myChart"></canvas>
-    </div>
+    {{#if Template.subscriptionsReady}}
+
+            <div class="form-group col-md-12">
+                <label class="col-md-2 control-label" for="textinput">Date to track</label>
+                <div class="col-md-4">
+                    <div class="input-group date">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon">
+                              <i class="glyphicon glyphicon-th"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn-test">Test Draw</button>
+                </div>
+            </div>
+
+            <div style="display: block; padding-top: 30px; padding-bottom: 30px">
+                <h1 class="page-title">
+                    {{#if isTemperature}} {{t9n 'Params.Temperature'}} {{/if}}
+                    {{#if isGroundHumidity}} {{t9n 'Params.GroundHumidity'}} {{/if}}
+                    {{#if isEnvironmentHumidity}} {{t9n 'Params.EnvironmentHumidity'}} {{/if}}
+                    {{#if isLuminosity}} {{t9n 'Params.Luminosity'}} {{/if}}
+                </h1>
+                <canvas id="myChart"></canvas>
+            </div>
+
+        {{#if editMode }}
+            <div class="col-md-12">
+                <div class="col-md-3"><button class="btn-temp">{{t9n 'Params.Temperature'}}</button></div>
+                <div class="col-md-3"><button class="btn-gh">{{t9n 'Params.GroundHumidity'}}</button></div>
+                <div class="col-md-3"><button class="btn-eh">{{t9n 'Params.EnvironmentHumidity'}}</button></div>
+                <div class="col-md-3"><button class="btn-lum">{{t9n 'Params.Luminosity'}}</button></div>
+            </div>
+        {{/if}}
+    {{else}}
+        <p>Loading...</p>
+    {{/if}}
 </template>

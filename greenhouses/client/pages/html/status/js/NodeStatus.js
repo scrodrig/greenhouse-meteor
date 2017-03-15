@@ -43,6 +43,7 @@ Template.NodeStatus.helpers({
     fields:  () => {
         return [
             {key :'start_time',label: 'Time',headerClass: 'vertical-title', cellClass: 'info', sortable: false, fn: function (value){
+                console.log(value);
                 return moment.unix(value).format("dddd, MMMM D, YYYY h:mm:ss A");
             }},
 
@@ -178,7 +179,6 @@ Template.NodeStatus.events({
 
     'click .reactive-table tbody tr': function (event) {
         var lecture = this;
-        console.log(lecture);
         var message =  T9n.get('NodeStatus.Alerts.messageIni')
                     + T9n.get('NodeStatus.Alerts.messageTemp') + "<strong>" +((lecture.temperature1 + lecture.temperature2)/2).toFixed(2) + "</strong>"
                     + T9n.get('NodeStatus.Alerts.messageEnv') + ((lecture.environment_humidity1 + lecture.environment_humidity2)/2).toFixed(2) + '%'
