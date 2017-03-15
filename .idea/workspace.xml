@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dc33ec2-cdf7-4ae1-b3cb-529135c9d5de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/global/MeteorGraphFunctions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/client/templates/Empty.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/server/QueryVariables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenhouses/server/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Greenhouses.iml" afterPath="$PROJECT_DIR$/.idea/Greenhouses.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_npm.xml" />
+    <list default="true" id="6dc33ec2-cdf7-4ae1-b3cb-529135c9d5de" name="Default" comment="Chart complete configuration and running only for one day&#10;TODO: Uncomment the line put the new date &#10;It's parsed and ready for commit&#10;Remains comment just for tests">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/.meteor/packages" afterPath="$PROJECT_DIR$/greenhouses/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/.meteor/versions" afterPath="$PROJECT_DIR$/greenhouses/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/both/t9n/en/greenhouses.en.t9n.js" afterPath="$PROJECT_DIR$/greenhouses/both/t9n/en/greenhouses.en.t9n.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/global/MeteorEnumerations.js" afterPath="$PROJECT_DIR$/greenhouses/client/global/MeteorEnumerations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/global/MeteorExtendedFunctions.js" afterPath="$PROJECT_DIR$/greenhouses/client/global/MeteorExtendedFunctions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/index.js" afterPath="$PROJECT_DIR$/greenhouses/client/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameters.html" afterPath="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/html/Parameters.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/js/Parameters.js" afterPath="$PROJECT_DIR$/greenhouses/client/pages/administration/parameters/js/Parameters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/pages/html/graphs/CheckGraphs.html" afterPath="$PROJECT_DIR$/greenhouses/client/pages/html/graphs/CheckGraphs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/pages/html/graphs/CheckGraphs.js" afterPath="$PROJECT_DIR$/greenhouses/client/pages/html/graphs/CheckGraphs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/pages/html/status/js/NodeStatus.js" afterPath="$PROJECT_DIR$/greenhouses/client/pages/html/status/js/NodeStatus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/client/services/salert-startup.js" afterPath="$PROJECT_DIR$/greenhouses/client/services/salert-startup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/lib/router.js" afterPath="$PROJECT_DIR$/greenhouses/lib/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenhouses/server/publish.js" afterPath="$PROJECT_DIR$/greenhouses/server/publish.js" />
     </list>
     <ignored path="Greenhouses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +28,7 @@
       <file leaf-file-name="CheckGraphs.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/graphs/CheckGraphs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="534">
               <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#template#0;n#!!top" expanded="true" />
@@ -86,16 +65,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
               <caret line="105" column="18" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckSteps.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/CheckSteps.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -955,7 +924,7 @@
       <workItem from="1488762774394" duration="7506000" />
       <workItem from="1488771371644" duration="141000" />
       <workItem from="1488771528508" duration="13801000" />
-      <workItem from="1489497425328" duration="43935000" />
+      <workItem from="1489497425328" duration="44198000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit IPL Web Mvil Application constructed in Meteor">
       <created>1483292972859</created>
@@ -1020,11 +989,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488774820061</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Chart complete configuration and running only for one day&#10;TODO: Uncomment the line put the new date &#10;It's parsed and ready for commit&#10;Remains comment just for tests">
+      <created>1489566030269</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1489566030269</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261894000" />
+    <option name="totallyTimeSpent" value="262157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1042,10 +1018,10 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24242425" sideWeight="0.8392484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32732317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36059907" sideWeight="0.5021097" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871014" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21636616" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21636616" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25440452" sideWeight="0.16075157" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1083,7 +1059,8 @@
     <MESSAGE value="Styling table and data&#10;No data by hours yer&#10;&amp; Readme File test" />
     <MESSAGE value="Alerts inside application" />
     <MESSAGE value="S- Alerts inside application and chart initial configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="S- Alerts inside application and chart initial configuration" />
+    <MESSAGE value="Chart complete configuration and running only for one day&#10;TODO: Uncomment the line put the new date &#10;It's parsed and ready for commit&#10;Remains comment just for tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chart complete configuration and running only for one day&#10;TODO: Uncomment the line put the new date &#10;It's parsed and ready for commit&#10;Remains comment just for tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1092,13 +1069,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/greenhouses/client/partials/html/MainNav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/administration/nodes/js/NewNode.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1498,9 +1468,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/greenhouses/client/pages/html/graphs/CheckGraphs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="534">
           <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#div#1;n#template#0;n#!!top" expanded="true" />
