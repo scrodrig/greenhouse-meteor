@@ -3,23 +3,20 @@
  */
 Template.CheckGraphs.onCreated(function () {
     var self = this;
-    //Meteor.subscribe('dataByDate',0,1)
     self.editMode = new ReactiveVar(false);
     self.isTemperature = new ReactiveVar(true);
     self.isGroundHumidity = new ReactiveVar(false);
     self.isEnvironmentHumidity = new ReactiveVar(false);
     self.isLuminosity = new ReactiveVar(false);
     self.autorun(function () {
-        //Meteor.subscribe('dataByDate')
-        // self.subscribe('dataByDate');
+        Meteor.subscribe('parameter');
+        Meteor.extendedFunctions.parameter = Parameter.findOne({});
     });
+
 
     sAlert.config({
-
         position: 'top-right',
     });
-
-
 
 });
 
@@ -33,8 +30,12 @@ Template.CheckGraphs.onRendered(function () {
 
 Template.CheckGraphs.helpers({
     initialDate: function () {
-
         return Meteor.extendedFunctions.date != null;
+    },
+
+    Parameter: function(){
+        Meteor.extendedFunctions.parameter = Parameter.findOne({});
+        return Parameter.findOne({});
     },
 
     editMode: function () {
@@ -63,7 +64,7 @@ Template.CheckGraphs.events({
 
     'click .btn-test':function () {
         if(Meteor.extendedFunctions.date != null && Meteor.extendedFunctions.date ){
-            getNodes()
+            getNodes();
             if(!Template.instance().editMode.get()){
                 Template.instance().editMode.set(!Template.instance().editMode.get())
             }
@@ -114,7 +115,7 @@ var myLineChart;
 
 function getNodes() {
     console.log(Meteor.extendedFunctions.date)
-    HTTP.call("GET", "http://localhost:3000/users/1478581200",
+    HTTP.call("GET", "http://localhost:3000/users/1478840400",//1478840400
         function (error, result) {
             if(error){
                 sAlert.error(T9n.get('GraphNode.ErrorData'), {});
@@ -139,9 +140,14 @@ function drawChartGH(lectures) {
     var data = {
         labels: Meteor.graphFunctions.labels(lectures),
         datasets: [
-            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgGroundHumidity1'),238,163,22),
-            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgGroundHumidity2'),219,211,35),
-            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgGroundHumidity3'),219,183,35)
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.GroundHumidity.lowerBoundary), 255,99,71),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.GroundHumidity.upperBoundary), 255,99,71),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.GroundHumidity.lowerIdeal), 204,204,0),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.GroundHumidity.upperIdeal), 204,204,0),
+
+            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgGroundHumidity1'),0,128,0),
+            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgGroundHumidity2'),0,128,128),
+            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgGroundHumidity3'),0,0,25)
         ]
     };
     myLineChart = new Chart(ctx).Line(data, options);
@@ -159,8 +165,12 @@ function drawChartTemp(lectures) {
     var data = {
         labels: Meteor.graphFunctions.labels(lectures),
         datasets: [
-            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgTemperature1'),238,163,22),
-            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgTemperature2'),219,183,35)
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.Temperature.lowerBoundary), 255,99,71),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.Temperature.upperBoundary), 255,99,71),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.Temperature.lowerIdeal), 204,204,0),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.Temperature.upperIdeal), 204,204,0),
+            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgTemperature1'),0,128,0),
+            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgTemperature2'),0,0,255)
         ]
     };
     myLineChart = new Chart(ctx).Line(data, options);
@@ -178,8 +188,14 @@ function drawChartEH(lectures) {
     var data = {
         labels: Meteor.graphFunctions.labels(lectures),
         datasets: [
-            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgEnvironmentHumidity1'),238,163,22),
-            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgEnvironmentHumidity2'),219,183,35)
+
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.EnvironmentHumidity.lowerBoundary), 255,99,71),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.EnvironmentHumidity.upperBoundary), 255,99,71),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.EnvironmentHumidity.lowerIdeal), 204,204,0),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.EnvironmentHumidity.upperIdeal), 204,204,0),
+
+            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgEnvironmentHumidity1'),0,128,0),
+            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgEnvironmentHumidity2'),0,0,255)
         ]
     };
     myLineChart = new Chart(ctx).Line(data, options);
@@ -197,7 +213,13 @@ function drawChartLum(lectures) {
     var data = {
         labels: Meteor.graphFunctions.labels(lectures),
         datasets: [
-            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgLuminosity'),219,183,35)
+
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.Luminosity.lowerBoundary), 255,99,71),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.Luminosity.upperBoundary), 255,99,71),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.Luminosity.lowerIdeal), 204,204,0),
+            Meteor.graphFunctions.datasetParameter(Meteor.graphFunctions.prepareDateParameter(Meteor.extendedFunctions.parameter.Luminosity.upperIdeal), 204,204,0),
+
+            Meteor.graphFunctions.datasetTemplateRGB(Meteor.graphFunctions.prepareData(lectures,'avgLuminosity'),0,0,255)
         ]
     };
     myLineChart = new Chart(ctx).Line(data, options);

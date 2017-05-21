@@ -24,6 +24,14 @@ Meteor.graphFunctions = {
         });
     },
 
+    prepareDateParameter: function (value) {
+        var data = new Array(24);
+        for (i = 0; i < data.length; i++) {
+            data[i]= value;
+        }
+        return data;
+    },
+
     options: function (scaleSteps,scaleStepWidth) {
         return {
 
@@ -31,6 +39,8 @@ Meteor.graphFunctions = {
                 display: true,
                 text: 'Custom Chart Title'
             },
+
+            label: 'hola',
 
             responsive: true,
 
@@ -61,7 +71,7 @@ Meteor.graphFunctions = {
             bezierCurveTension: 0.4,
 
             //Boolean - Whether to show a dot for each point
-            pointDot: true,
+            pointDot: false,
 
             //Number - Radius of each point dot in pixels
             pointDotRadius: 4,
@@ -83,14 +93,14 @@ Meteor.graphFunctions = {
 
             legend: {
                 display: true,
+                position : 'top',
                 labels: {
                     fontColor: 'rgb(255, 99, 132)'
                 }
             },
 
-
             //String - A legend template
-            // legendTemplate: "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>"
+            legendTemplate : "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>\"><%if(datasets[i].label){%><%=datasets[i].label%><%}%></span></li><%}%></ul>"
 
         }
     },
@@ -101,13 +111,26 @@ Meteor.graphFunctions = {
 
     datasetTemplateRGB: function (data, red, green, blue) {
         return {
-            label: "My First dataset",
+            label: '# of Votes',
             strokeColor: 'rgba('+red+','+green+','+blue+',0.7)',
             pointColor: 'rgba('+red+','+green+','+blue+',1)',
             pointStrokeColor: "#fff",
             pointHighlightFill: "#fff",
             pointHighlightStroke: "rgba(220,220,220,1)",
             data: data
+        }
+    },
+
+    datasetParameter: function (value, red, green, blue) {
+        return {
+            label: '# Parameters',
+            strokeColor: 'rgba('+red+','+green+','+blue+',0.7)',
+            pointColor: 'rgba('+red+','+green+','+blue+',1)',
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: value
         }
     },
 

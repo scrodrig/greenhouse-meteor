@@ -86,7 +86,7 @@ T9n.map('en',{
             messageIni: 'The selected lecture shows: ',
             messageTemp: 'average temperature lecture is ',
             messageEnv: ', average environment humidity lecture is ',
-            messageGH: ', average ground humidity lecture is ',
+            messageGH: ', average Soil Moisture lecture is ',
             messageLum: ', average luminosity lecture is ',
         },
         Status: 'Check Step',
@@ -101,7 +101,7 @@ T9n.map('en',{
 
     Params:{
         Temperature: 'Temperature',
-        GroundHumidity: 'Ground Humidity',
+        GroundHumidity: 'Soil Moisture',
         EnvironmentHumidity: 'Environment Humidity',
         Luminosity: 'Luminosity'
     },

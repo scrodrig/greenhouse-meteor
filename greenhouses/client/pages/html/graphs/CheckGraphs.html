@@ -1,7 +1,14 @@
 <template name="CheckGraphs">
     {{#if Template.subscriptionsReady}}
-
             <div class="form-group col-md-12">
+
+                <h1 class="page-title">
+                    {{#if isTemperature}} {{t9n 'Params.Temperature'}} {{/if}}
+                    {{#if isGroundHumidity}} {{t9n 'Params.GroundHumidity'}} {{/if}}
+                    {{#if isEnvironmentHumidity}} {{t9n 'Params.EnvironmentHumidity'}} {{/if}}
+                    {{#if isLuminosity}} {{t9n 'Params.Luminosity'}} {{/if}}
+                </h1>
+
                 <label class="col-md-2 control-label" for="textinput">Date to track</label>
                 <div class="col-md-4">
                     <div class="input-group date">
@@ -16,13 +23,8 @@
                 </div>
             </div>
 
-            <div style="display: block; padding-top: 30px; padding-bottom: 30px">
-                <h1 class="page-title">
-                    {{#if isTemperature}} {{t9n 'Params.Temperature'}} {{/if}}
-                    {{#if isGroundHumidity}} {{t9n 'Params.GroundHumidity'}} {{/if}}
-                    {{#if isEnvironmentHumidity}} {{t9n 'Params.EnvironmentHumidity'}} {{/if}}
-                    {{#if isLuminosity}} {{t9n 'Params.Luminosity'}} {{/if}}
-                </h1>
+            <div style="padding-top: 30px; padding-bottom: 30px">
+
                 <canvas id="myChart"></canvas>
             </div>
 

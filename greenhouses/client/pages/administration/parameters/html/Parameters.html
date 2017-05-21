@@ -5,20 +5,18 @@
             <div class="media">
                 <h3>Parámetros</h3>
                 <div class="media-body">
-                    Test {{test}}
-
                     {{#if editMode }}
                         {{#autoForm collection="Parameter" id="updateParameterId" type="update" doc=Parameter autosave=true}}
                             {{> afQuickField name='Temperature'}}
-                            {{> afQuickField name='GroundHumidity'}}
+                            {{> afQuickField name='Soil Moisture'}}
                             {{> afQuickField name='EnvironmentHumidity'}}
                             {{> afQuickField name="Luminosity"}}
                         {{/autoForm}}
                         <i class="fa fa-close"></i>
                     {{else}}
                         {{> IndividualParameter parameter=Parameter.Temperature name="Temperature"}}
-                        {{> IndividualParameter parameter=Parameter.GroundHumidity name="GroundHumidity"}}
-                        {{> IndividualParameter parameter=Parameter.EnvironmentHumidity name="EnvironmentHumidity"}}
+                        {{> IndividualParameter parameter=Parameter.GroundHumidity name="Soil Moisture"}}
+                        {{> IndividualParameter parameter=Parameter.EnvironmentHumidity name="Environment Humidity"}}
                         {{> IndividualParameter parameter=Parameter.Luminosity name="Luminosity"}}
                         <i class="fa fa-pencil"></i>
                     {{/if}}
