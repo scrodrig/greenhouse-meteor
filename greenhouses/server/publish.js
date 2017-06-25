@@ -102,3 +102,7 @@ Meteor.publish("dataByDate", function () {
         }
     ]);
 });
+
+Meteor.publish('dataToPredict', function (limit) {
+    return NodeData.find({},{limit: limit, sort: {_id:-1}});
+});

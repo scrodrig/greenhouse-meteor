@@ -1,0 +1,29 @@
+<template name="Prediction">
+    {{#if Template.subscriptionsReady}}
+    <h1 class="page-title">{{t9n 'Prediction.Title'}}</h1>
+        <div class="form-group col-md-12">
+
+            <h1 class="page-title">
+                {{#if isTemperature}} {{t9n 'Params.Temperature'}} {{/if}}
+                {{#if isGroundHumidity}} {{t9n 'Params.GroundHumidity'}} {{/if}}
+                {{#if isEnvironmentHumidity}} {{t9n 'Params.EnvironmentHumidity'}} {{/if}}
+                {{#if isLuminosity}} {{t9n 'Params.Luminosity'}} {{/if}}
+            </h1>
+        </div>
+
+    <div style="padding-top: 30px; padding-bottom: 30px">
+
+        <canvas id="myChart"></canvas>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-3"><button class="btn-temp">{{t9n 'Params.Temperature'}}</button></div>
+        <div class="col-md-3"><button class="btn-gh">{{t9n 'Params.GroundHumidity'}}</button></div>
+        <div class="col-md-3"><button class="btn-eh">{{t9n 'Params.EnvironmentHumidity'}}</button></div>
+        <div class="col-md-3"><button class="btn-lum">{{t9n 'Params.Luminosity'}}</button></div>
+    </div>
+
+    {{else}}
+        <p>Loading...</p>
+    {{/if}}
+
+</template>

@@ -54,4 +54,75 @@ if(Meteor.isServer) {
             this.response.setHeader('Content-Type','application/json');
             this.response.end(JSON.stringify(result));
         });
+
+
+    Router.route('/nodes/:moment',{where: 'server'})
+        .get(function(){
+            var day = +this.params.moment;
+            var start = day;
+            var hour = 3600;
+            var time = 5;
+            var end = +day - hour*time;
+            var result = [];
+            do{
+
+                var id = ((+start+hour)-day)/hour;
+
+                var response = NodeData.aggregate(
+                    {
+                        $match: {
+                            'start_time': {
+                                $gte: +start,
+                                $lt: +start + 1800
+                            }
+                        }
+                    },
+                    {
+                        $group: {
+                            "_id": "com.espe.edu.invernaderos.invernaderosmongo.model.NodeData",
+                            avgTemperature1: {
+                                $avg: "$temperature1"
+                            },
+                            avgTemperature2: {
+                                $avg: "$temperature2"
+                            },
+                            avgGroundHumidity1: {$avg: "$ground_humidity1"},
+                            avgGroundHumidity2: {$avg: "$ground_humidity2"},
+                            avgGroundHumidity3: {$avg: "$ground_humidity3"},
+                            avgEnvironmentHumidity1: {$avg: "$environment_humidity1"},
+                            avgEnvironmentHumidity2: {$avg: "$environment_humidity2"},
+                            avgLuminosity : {$avg: "$luminosity"}
+                        }
+                    },
+                    {
+                        $project: {
+                            avgTemperature: {
+                                $avg: ["$temperature1", "$temperature2"]
+                            },
+                            avgGroundHumidity: {
+                                $avg: ["$avgGroundHumidity1", "$avgGroundHumidity2", "$avgGroundHumidity3"]
+                            },
+                            avgEnvironmentHumidity: {
+                                $avg: ["$avgEnvironmentHumidity1", "$avgEnvironmentHumidity2"]
+                            },
+                            avgLuminosity: {
+                                $avg: "$avgLuminosity"
+                            },
+                        },
+                    }
+                );
+
+                if(response.length === 0){
+                    //console.log(Meteor.queryVariables.emptyDateObject(id));
+                    result =  result.concat(Meteor.queryVariables.emptyDateObject(id));
+                }else{
+                    response[0]._id= id;
+                    result = result.concat(response);
+                }
+                start = +start - 1800;
+            }while(+start > +end);
+            this.response.setHeader('Content-Type','application/json');
+            var data =JSON.stringify(result.reverse());
+            this.response.end(data);
+        });
 }

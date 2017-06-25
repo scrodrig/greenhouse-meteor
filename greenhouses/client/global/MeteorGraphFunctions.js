@@ -71,7 +71,7 @@ Meteor.graphFunctions = {
             bezierCurveTension: 0.4,
 
             //Boolean - Whether to show a dot for each point
-            pointDot: false,
+            pointDot: true,
 
             //Number - Radius of each point dot in pixels
             pointDotRadius: 4,
@@ -107,6 +107,47 @@ Meteor.graphFunctions = {
 
     labels : function () {
         return ["01:00","02:00","03:00","04:00","05:00","06:00","07:00","08:00","09:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00","19:00","20:00","21:00","22:00","23:00","24:00"];
+    },
+
+    predictionLabels : function (hour, minutes) {
+        var labels= [];
+        if(minutes > 30) {
+            hour += 1;
+        }
+        for (var i = hour ; i > hour - 5; i--){
+            if(minutes > 30){
+                var minutesAlpha = '00';
+                var minutesBeta = '30';
+            }else{
+                var minutesAlpha = '30';
+                var minutesBeta = '00';
+            }
+            labels.push((i<0?24+i:i) + ':' + minutesAlpha);
+            labels.push((i<0?24+i:i) + ':' + minutesBeta);
+        }
+        return labels.reverse();
+    },
+
+    predictionNoAlteredLabels : function (hour, minutes) {
+        var labels= [];
+        for (var i = hour ; i > hour - 5; i--){
+            if(minutes >= 30){
+                var minutesAlpha = minutes;
+                var minutesBeta =  (minutes - 30 < 10)?('0' +(minutes-30)): minutes - 30;
+            }else{
+                var minutesAlpha = minutes;
+                var minutesBeta = (60 - (30 - minutes))<10?('0' + (60 - (30 - minutes))): (60 - (30 - minutes));
+            }
+            labels.push((i<0?24+i:i) + ':' + minutesAlpha);
+            labels.push((i<0?24+i:i) + ':' + minutesBeta);
+        }
+        labels = labels.reverse();
+        if(minutes >= 30) {
+            labels.push((hour+1)+ ':' + ((minutes - 30 < 10)?('0' +(minutes-30)): minutes - 30));
+        }else{
+            labels.push((hour)+ ':' + (60 - (30 - minutes)));
+        }
+        return labels;
     },
 
     datasetTemplateRGB: function (data, red, green, blue) {

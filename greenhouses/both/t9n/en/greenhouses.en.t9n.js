@@ -97,6 +97,7 @@ T9n.map('en',{
     GraphNode:{
         Alerts: 'Please select a date before consulting a chart',
         ErrorData: 'There is an error with the web service',
+        ErrorGraphing: 'There is an error when trying to display the grahpic',
     },
 
     Params:{

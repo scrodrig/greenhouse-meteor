@@ -8,5 +8,12 @@ Meteor.Enumerations = {
          TEMPERATURE: 2,
          ENVIRONMENT_HUMIDITY: 3,
          LUMINOSITY: 4
-     }
+     },
+
+    avgType : {
+        GROUND_HUMIDITY: 'avgGroundHumidity',
+        TEMPERATURE: 'avgTemperature',
+        ENVIRONMENT_HUMIDITY: 'avgEnvironmentHumidity',
+        LUMINOSITY: 'avgLuminosity'
+    }
 };
