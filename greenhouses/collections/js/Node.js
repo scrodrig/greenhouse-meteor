@@ -1,4 +1,4 @@
-/**
+2/**
  * Created by SchubertDavidRodriguez on 11/22/16.
  */
 Nodes = new Meteor.Collection('Node')
